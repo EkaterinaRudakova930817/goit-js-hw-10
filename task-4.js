@@ -1,2 +1,0 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";const s=document.querySelector(".login-form");s.addEventListener("submit",e=>{e.preventDefault();const r=e.currentTarget.elements.email.value.trim(),t=e.currentTarget.elements.password.value.trim();if(r===""||t===""){alert("All form fields must be filled in");return}console.log({email:r,password:t}),e.currentTarget.reset()});
-//# sourceMappingURL=task-4.js.map
